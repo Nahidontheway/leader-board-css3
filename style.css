@@ -1,0 +1,37 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,700&family=Bebas+Neue&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,100;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,700&family=Roboto:wght@300;400;500;700&family=Supermercado+One&display=swap');
+
+/* common-style and utilities */
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #f3f1ff;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background: #ffffff;
+    width: 870px;
+    padding: 30px;
+}
+/* top-player-style */
+.section-title{
+    color: #562fff;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
